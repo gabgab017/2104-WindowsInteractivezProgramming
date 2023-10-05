@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="CSTP2104_GaborSzijj_Assigment3.Budapest"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CSTP2104_GaborSzijj_Assigment3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="btnHome" Content="Back to main page" Margin="0,881,0,0" VerticalAlignment="Top" Click="btnHome_Click" HorizontalAlignment="Center"/>
+        <Image x:Name="Budapest1" Margin="382,126,390,418" Source="/Assets/Budapest.png"/>
+        <TextBlock TextWrapping="Wrap" Text="Budapest, the heart and soul of Hungary, came to life in 1873 with the unification of three historically rich cities: Buda, Óbuda, and Pest. With a population nearing 2 million, this city is the epicenter of Hungarian administration, culture, economics, science, trade, and transportation. Much like Berlin, with its profound history and cultural wonders, which you can explore in-depth here, Budapest sprawls majestically on both sides of the Danube River. The city is structured into 23 distinct districts, with the majority lying in Pest. Buda, with its rolling hills, stands in stark contrast to Pest’s expansive plains. Dominating the Buda landscape is the magnificent Gellért Hill, rising to 235 meters, presenting an unmatched panorama of Budapest. Linking the two sides are nine emblematic bridges. All, save for the Erzsébet híd, underwent reconstruction after their destruction during WWII, a testament to Budapest’s relentless spirit." Margin="410,611,417,166" FontSize="15" FontWeight="Bold"/>
+        <TextBlock TextWrapping="Wrap" Text="Budapest, Hungary" Margin="683,30,423,896" FontSize="40" FontWeight="Bold"/>
+
+    </Grid>
+</Page>

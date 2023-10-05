@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="CSTP2104_GaborSzijj_Assigment3.Vienna"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CSTP2104_GaborSzijj_Assigment3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="btnHome" Content="Back to main page" Margin="705,898,0,0" Click="btnHome_Click" VerticalAlignment="Top"/>
+        <Image x:Name="Vienna1" Source="/Assets/Vienna.jpg" Margin="458,140,412,440"/>
+        <TextBlock TextWrapping="Wrap" Text="Vienna has a magnificent reputation as one of the most civilized cities on Earth. In fact, academics use the distance from Vienna as a measure of how close a country is to European civilization. The further away they are, the worse are their institutions. Vienna lives up to the hype. It’s a city that manages to seduce you, right from the get go. It’s an eclectic city. It’s got that New York pace in some parts and that European laid back style in others. With its rich history, there’s a never-ending list of things that visitors can do. There are art galleries and museums galore. Plus, the city is one of the most interesting, both musically and culturally. You can even use it as a base to go on a Danube river cruise. " Margin="435,598,383,118" FontWeight="Bold" FontSize="20"/>
+        <TextBlock TextWrapping="Wrap" Text="Vienna, Austria" Margin="750,46,476,884" FontSize="30" FontWeight="Bold"/>
+
+    </Grid>
+</Page>

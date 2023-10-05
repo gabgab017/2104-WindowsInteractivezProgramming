@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="CSTP2104_GaborSzijj_Assigment3.Lisbon"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CSTP2104_GaborSzijj_Assigment3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="btnHome" Content="Back to main page" Margin="0,885,0,0" VerticalAlignment="Top" Click="btnHome_Click" HorizontalAlignment="Center"/>
+        <Image x:Name="Lisbon1" Source="/Assets/Lisbon.jpg" Margin="410,155,411,452"/>
+        <TextBlock TextWrapping="Wrap" Text="Lisbon is one of the oldest cities in western Europe. After the region was settled by the Celts, it was then founded by the Phoenicians. They established a settlement called Ulissipo, which was then conquered by the Greeks and Carthaginians. In 205 BC, the Romans won the Second Punic War against the Carthaginians and occupied the city, calling it Olissipo. Ancient Lisbon was integrated into the Roman province of Lusitania, but when the Roman Empire collapsed, it was invaded by Germanic tribes and was controlled by the Kingdom of the Suebi until 585." Margin="438,588,437,146" FontSize="20" FontWeight="Bold"/>
+        <TextBlock TextWrapping="Wrap" Text="Lisbon, Portugal" Margin="744,57,467,874" FontSize="30" FontWeight="Bold"/>
+
+    </Grid>
+</Page>

@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="CSTP2104_GaborSzijj_Assigment3.Paris"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CSTP2104_GaborSzijj_Assigment3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="btnHome" Content="Back to main page" Margin="0,872,0,0" VerticalAlignment="Top" Click="btnHome_Click" HorizontalAlignment="Center"/>
+        <Image x:Name="Paris1" Margin="436,147,437,431" Source="/Assets/Paris.png"/>
+        <TextBlock TextWrapping="Wrap" Text="The capital of France seems to have been designed specifically for the enjoyment of its visitors. Its streets, squares, buildings, gardens, and monuments beckon tourists to return, and indeed, many do. Some of the most memorable things to do in Paris include visiting the Eiffel Tower, the Arc de Triomphe, and Notre Dame Cathedral. During the evening, experiencing one of the legendary Moulin Rouge cabaret shows, or climbing the Montparnasse Tower is a must." Margin="503,602,474,157" SelectionChanged="TextBlock_SelectionChanged" FontSize="20" FontWeight="Bold"/>
+        <TextBlock TextWrapping="Wrap" Text="Paris, France" Margin="762,59,474,852" FontSize="30" FontWeight="Bold"/>
+
+    </Grid>
+</Page>
